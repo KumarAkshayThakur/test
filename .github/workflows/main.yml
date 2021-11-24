@@ -1,0 +1,14 @@
+name: GithubActions
+on: [push,workflow_dispatch]
+#on: [workflow_dispatch]
+jobs:
+  checkgithubactions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: running a one line script
+        run : echo Hello, Akshay drama
+      
+      #Below is using resuable workflow
+  test2:
+    uses: KumarAkshayThakur/ReusableWorkflow/.github/workflows/codeql-analysis.yml@main
