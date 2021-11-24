@@ -1,6 +1,7 @@
 name: GithubActions
 on: [push,workflow_dispatch]
 #on: [workflow_dispatch]
+
 jobs:
   checkgithubactions:
     runs-on: ubuntu-latest
@@ -12,3 +13,6 @@ jobs:
       #Below is using resuable workflow
   test2:
     uses: KumarAkshayThakur/ReusableWorkflow/.github/workflows/codeql-analysis.yml@main
+    with:
+          MODULE_NAME: 'modules'
+          LANGUAGE: 'javascript'
