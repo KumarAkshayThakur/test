@@ -14,5 +14,5 @@ jobs:
   test2:
     uses: KumarAkshayThakur/ReusableWorkflow/.github/workflows/codeql-analysis.yml@main
     with:
-          MODULE_NAME: 'modules'
+          MODULE_NAME: 'modules/basic-modules'
           LANGUAGE: 'javascript'
