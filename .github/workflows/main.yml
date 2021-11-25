@@ -11,11 +11,11 @@ jobs:
         run : echo Hello, Akshay drama
       
       #Below is using resuable workflow
-  test2:
-    uses: KumarAkshayThakur/ReusableWorkflow/.github/workflows/codeql-analysis.yml@main
-    with:
-          MODULE_NAME: 'promises-test'
-          LANGUAGE: 'javascript'
+  #test2:
+  #  uses: KumarAkshayThakur/ReusableWorkflow/.github/workflows/codeql-analysis.yml@main
+  #  with:
+  #        MODULE_NAME: 'promises-test'
+  #        LANGUAGE: 'javascript'
   test3:
      uses: KumarAkshayThakur/ReusableWorkflow/.github/workflows/Jscrambler.yml@main
      with:
