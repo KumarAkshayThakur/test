@@ -18,6 +18,6 @@ jobs:
   #        LANGUAGE: 'javascript'
   test3:
      uses: KumarAkshayThakur/ReusableWorkflow/.github/workflows/Jscrambler.yml@main
-     with:
-          MODULE_NAME: 'promises-test'
-          LANGUAGE: 'javascript'     
+     #with:
+     #     MODULE_NAME: 'promises-test'
+     #     LANGUAGE: 'javascript'     
