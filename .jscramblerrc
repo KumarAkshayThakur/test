@@ -1,0 +1,67 @@
+{
+  "keys": {
+    "accessKey": "F220A0F5F851B3D0AE793E64659C1EE8F6F0A100",
+    "secretKey": "C08C7887C45FF5E0EB9E4CB8FB61334838A32615"
+  },
+  "applicationId": "619f607b78490700120cc3b5",
+  "filesSrc": [
+    "./promises-test/*.html",
+    "./promises-test/*.js"
+  ],
+  "filesDest": "./",
+  "params": [
+    {
+      "name": "objectPropertiesSparsing"
+    },
+    {
+      "name": "variableMasking"
+    },
+    {
+      "name": "whitespaceRemoval"
+    },
+    {
+      "name": "dotToBracketNotation"
+    },
+    {
+      "name": "stringConcealing"
+    },
+    {
+      "name": "functionReordering"
+    },
+    {
+      "name": "propertyKeysObfuscation",
+      "options": {
+        "encoding": [
+          "hexadecimal"
+        ]
+      }
+    },
+    {
+      "name": "regexObfuscation"
+    },
+    {
+      "options": {
+        "features": [
+          "opaqueSteps"
+        ]
+      },
+      "name": "controlFlowFlattening"
+    },
+    {
+      "name": "booleanToAnything"
+    },
+    {
+      "name": "identifiersRenaming"
+    },
+    {
+      "name": "globalVariableIndirection"
+    }
+  ],
+  "areSubscribersOrdered": false,
+  "useRecommendedOrder": true,
+  "jscramblerVersion": "7.1",
+  "tolerateMinification": true,
+  "profilingDataMode": "off",
+  "useAppClassification": true,
+  "browsers": {}
+}
